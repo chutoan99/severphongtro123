@@ -1,11 +1,17 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "phongtro123",
-    "host": "127.0.0.1",
-    "dialect": "mysql",
-    "logging": false
+    "username": "ndnxokuixrmesd",
+    "password": "b654f8d108f308b1347d5aac5f5c52402f8e74c66b8c0a299b02b4f742e6c5d1",
+    "database": "d4k000moc197gq",
+    "host": "ec2-44-209-57-4.compute-1.amazonaws.com",
+    "dialect": "postgres",
+    "logging": false,
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
   },
   "test": {
     "username": "root",
