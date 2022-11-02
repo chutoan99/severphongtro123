@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 import cors from "cors";
 import initRoutes from "./src/routes/index";
 import connectDataBase from "./src/config/connectDataBase";
-
+import router from "./src/routes/auth";
 // các  cấu hình
 dotenv.config();
 const app = express();
