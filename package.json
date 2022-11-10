@@ -35,5 +35,8 @@
   },
   "devDependencies": {
     "sequelize-cli": "^6.5.1"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
   }
 }
